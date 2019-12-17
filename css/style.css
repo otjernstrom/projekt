@@ -110,7 +110,57 @@ a:link{
 #popular{
   font-size: 25px;
   font-family: sans-serif;
+  display: block;
   text-align: center;
+  text-decoration: underline;
+  margin: auto;
+
+}
+
+.uppe{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  height: fit-content;
+}
+
+.nextpage{
+  text-align: center;
+  display: inline;
+
+}
+
+ul.nastasida li{
+  display: inline-block;
+  justify-content: center;
+}
+
+.nastasida {
+  display: inline-block;
+  width: 40%;
+  float: left;
+}
+
+.previous, .next {
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 12px;
+  float: left;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  border-right: 3px solid;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
 }
 
 .plagg{
