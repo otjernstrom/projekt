@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: repeat(20, 1fr);
-  grid-gap: 3px;
   height: 100vh;
   width: 100%;
   padding: 0px;
@@ -21,14 +20,22 @@
 }
 
 header{
-  background-color: blue;
+  background-color: rgb(45, 105, 221);
   padding: 10px;
   grid-column: 2/13;
   grid-row: 1/4;
 }
 
+#topbar{
+  background-color: rgb(0, 139, 229);
+}
+
+.search-btn{
+  background-image: url(../images/glas.jpg);
+  background-size: cover;
+}
+
 .nav{
-  background-color: red;
   padding: 20px;
   grid-column: 2/13;
   grid-row: 4/7;
@@ -36,29 +43,35 @@ header{
 }
 
 .leftnav{
-  background-color: green;
   padding: 20px;
   grid-column: 1/1;
   grid-row: 1/21;
 }
 
-.navnav{
-  background-color: #f1f1f1;
+#navnav{
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   grid-column: 1/1;
   grid-row: 1/21;
 }
 
 section{
-  background-color: purple;
   padding: 20px;
   grid-column: 2/13;
   grid-row: 7/20;
 }
 
+.bakgrund{
+  grid-column: 2/13;
+  grid-row: 4/20;
+  background-image: url(../images/bakom1.jpg);
+  background-size: cover;
+}
+
 footer{
   padding: 20px;
-  background-color: gray;
+  background-color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
   grid-column: 2/13;
   grid-row: 20/21;
 }
